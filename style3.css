@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #548687;
+    text-align: center;
+
+}
+
+.container{
+    
+    background-color:whitesmoke;
+    height: 280px;
+    width: 450px;
+    margin-top: 210px;
+    margin-left: 400px;
+    border-radius: 1.5rem;
+    border: 2px solid seashell;
+}
+.box1{
+    
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-top: 1rem;
+    
+
+}
+
+
+.box3 ::after{
+      content: "\a";
+} 
+
+#bharat{
+    background-color: rgb(231, 153, 8);
+}
+#india{
+    background-color:rgb(21, 189, 21);
+}
+.img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    
+    border: 1px solid;
+}
+   .boxes{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-top: 0.7rem;
+    margin-right: 1rem;
+    
+
+}
+ .name{
+   margin-bottom: 1.2rem;
+   margin-right: 1rem;
+}
+.code{
+    height: 7rem;
+    width: 7rem;
+    border: 2px solid seashell;
+    
+   
+} 
+
+.num{
+    margin-bottom: 4rem;
+     height: 1rem;
+     width: 8rem;
+    margin-left: 9rem;
+
+}
+
+.hr{
+    height: 5rem;
+    width: 6rem;
+}
